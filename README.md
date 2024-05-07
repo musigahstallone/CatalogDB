@@ -1,0 +1,3 @@
+- This is a .NET Web API that fetches data from a mongodb database to various endpoints.
+- the API then uses SwaggerUI to nicely document it.
+- Through the SwaggerUI you can easily interact with the database.
