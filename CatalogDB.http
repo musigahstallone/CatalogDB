@@ -1,0 +1,17 @@
+@CatalogDB_HostAddress = http://localhost:5289
+
+GET {{CatalogDB_HostAddress}}/api/catalog/items
+
+###
+
+GET {{CatalogDB_HostAddress}}/api/catalog/items/56
+
+###
+
+GET {{CatalogDB_HostAddress}}/api/catalog/items/byids
+
+###
+
+GET {{CatalogDB_HostAddress}}/api/catalog/items/byname/{name:minlength(1)}
+
+###
